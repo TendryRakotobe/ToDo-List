@@ -192,23 +192,27 @@ i {
 }
 
 .button-add-project-popup {
-  border: 1px solid #99dd99;
-  background-color: #aaffaa;
+  border: 2px solid transparent;
+  background-color: #38E54D;
   font-weight: bold;
 }
 
 .button-cancel-project-popup {
-  border: 1px solid #eeadad;
-  background-color: #ffbebe;
+  border: 2px solid transparent;
+  background-color: #EB5353;
   font-weight: bold;
 }
 
 .button-add-project-popup:hover {
-  background-color: #a6f0a6;
+  border-color: #38E54D;
+  background-color: transparent;
+  color:#38E54D;
 }
 
 .button-cancel-project-popup:hover {
-  background-color: #f5b2b2;
+  color: #EB5353;
+  border-color:#EB5353;
+  background-color: transparent;
 }
 
 .project-preview {
@@ -344,23 +348,28 @@ i {
 }
 
 .button-add-task-popup {
-  border: 1px solid #99dd99;
-  background-color: #aaffaa;
+  border: 2px solid transparent;
+  background-color: #38E54D;
   font-weight: bold;
 }
 
 .button-cancel-task-popup {
-  border: 1px solid #eeadad;
-  background-color: #ffbebe;
+  border: 2px solid transparent;
+  background-color: #EB5353;
   font-weight: bold;
 }
 
 .button-add-task-popup:hover {
-  background-color: #a6f0a6;
+  border-color:#38E54D;
+  background-color: transparent;
+  color:#38E54D;
+
 }
 
 .button-cancel-task-popup:hover {
-  background-color: #f5b2b2;
+  background-color: transparent;
+  border-color: #EB5353;
+  color: #EB5353;
 }
 
 /* Footer */
